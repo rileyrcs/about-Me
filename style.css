@@ -1,0 +1,79 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #daebea;
+}
+
+
+
+h1 {
+  font-style: italic;
+  color: #000000;
+}
+
+.sup {
+  text-align: center;
+}
+
+.navBar1 {
+  padding: 50px;
+  background: #daebea;
+  display: flex;
+}
+
+.parralax {
+  /* The image used */
+  background-image: url("https://cdn.glitch.com/ccae4139-eaa8-49ba-9127-ac1804ee0878%2Fme1.JPG?v=1592236860284");
+
+  /* Set a specific height */
+  height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #daebea;
+}
+
+.me {
+  font-family: helvetica, arial, sans-serif;
+  font-style: italic;
+  font-size: 105px;
+  padding-top: 250px;
+  color: #748c8b;
+}
+
+
+
+.photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-left: 20px;
+}
+
+#Emmy {
+  max-width:70%; 
+  height:auto;
+}
+
+
+#frannie {
+  max-width:40%; 
+  height:auto;
+}
+
+#camp {
+  max-width:60%; 
+  height:auto;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #daebea;
+  color: white;
+}
